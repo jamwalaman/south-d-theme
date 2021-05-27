@@ -1,0 +1,296 @@
+/*
+ Theme Name:   South Dunedin Community Network Theme
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Chaplin Child Theme
+ Author:       Aman Jamwal
+ Author URI:   http://example.com
+ Template:     chaplin
+ Version:      1.1.20
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  chaplin
+*/
+
+.template-full-width-cover-img #site-header {
+	margin-bottom: 0;
+}
+
+/* .header-inner, .header-inner.is-sticky {
+	background: #8ebeca;
+	box-shadow: 0 0 1rem rgba( 0, 0, 0, 0.5 );
+} */
+
+.svg-logo {
+	width: 9rem;
+	margin: 1rem;
+}
+/* nav */
+.main-menu-alt li {
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	/* color: #8ebeca; */
+	font-weight: 600;
+}
+.main-menu-alt ul {
+	color: #dcebef;
+}
+
+.wp-block-button__link {
+	border-radius: 100px;
+}
+
+#post-553 h2:first-of-type {
+	margin-top: 0;
+}
+
+.home-heading-border:after {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 40px;
+	padding-top: 20px;
+	border-bottom: 2px solid #414042;
+}
+
+@media ( max-width: 599px ) {
+	.wp-block-columns.mob-reverse {
+		flex-direction: column-reverse;
+	}
+	.wp-block-columns.mob-reverse .wp-block-column:last-child {
+		margin-bottom: 3rem;
+	}
+}
+
+@media (min-width: 700px) {
+	h2 {
+		margin: 3rem 0;
+	}
+}
+.template-full-width-cover-img .breadcrumbs-wrapper {
+	margin-bottom: 0;
+}
+
+.cover-header-inner-wrapper {
+	justify-content: center;
+}
+
+.cover-header-inner-wrapper h1.entry-title {
+	font-weight: 700;
+	text-align: center;
+}
+
+.wp-block-image.is-style-rounded img {
+	border-radius: 30px;
+}
+
+.to-the-content-wrapper {
+	display: grid;
+	justify-content: center;
+}
+
+.to-the-content .text {
+	margin-left: 0;
+}
+
+.icon.fill-children-current-color {
+	display: none;
+}
+
+.cover-header .entry-header a {
+	background: #414042;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.pdf {
+	width: 600px !important;
+}
+
+.wp-block-coblocks-row[data-columns="1"] .wp-block-coblocks-column__inner>[class*="wp-block-"] {
+	max-width: 112rem;
+}
+
+/* Home page Subscribe form */
+
+#mc4wp-form-1 .mc4wp-form-fields {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#mc4wp-form-1 p {
+	display: inline-block;
+	width: 22%;
+	margin-right: 3%;
+}
+
+#mc4wp-form-1 p input[type='submit'] {
+	margin: auto;
+	display: block;
+}
+
+#mc4wp-form-1 p input[type="text"], #mc4wp-form-1 p input[type="email"], #mc4wp-form-1 p input[type='submit'] {
+	border-radius: 3rem;
+}
+
+/* Contact form */
+.nf-form-layout form {
+	margin-top: 0;
+}
+.nf-form-layout .nf-form-content label {
+	font-size: 1.6rem;
+}
+
+.template-full-width-cover-img .entry-header {
+	position: relative;
+}
+
+.template-full-width-cover-img .entry-title {
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+	background: #8ebeca;
+	color: #ffffff;
+	padding: 10px;
+	font-weight: 600;
+}
+
+.template-full-width-cover-img .featured-media {
+	margin: 0;
+	width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.template-full-width-cover-img .featured-media img {
+	height: 240px;
+	object-fit: cover;
+}
+
+.template-full-width-cover-img .breadcrumbs-bg {
+	max-width: 100vw;
+	width: 100vw;
+	background: #dcebef;
+	margin-left: -2rem;
+}
+
+.template-full-width-cover-img .breadcrumbs-inner-wrapper {
+	max-width: 112rem;
+	margin: 0 auto;
+	padding: 1.5rem 0;
+	width: calc( 100% - 4rem );
+}
+
+/* team page */
+#post-780 .is-style-rounded img, .teams .is-style-rounded img {
+	border-radius: 50%;
+	margin: auto;
+}
+#post-780 h3.has-large-font-size {
+	margin-bottom: 0;
+}
+
+@media ( max-width: 700px) {
+	#mc4wp-form-1 .mc4wp-form-fields {
+		flex-direction: column;
+	}
+	#mc4wp-form-1 p {
+		width: 100%;
+	}
+}
+
+/* footer */
+#site-footer {
+	background-color: #414042;
+	font-size: 1.5rem;
+}
+
+.footer-inner {
+	padding: 5.5rem 0;
+}
+
+.footer-logos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 40px;
+}
+
+.footer-logos img.dcc-logo {
+	width: 270px;
+}
+
+.footer-logos img.cogs-logo {
+	width: 140px;
+	height: 67.78px;
+	margin: 50px 0;
+}
+
+.footer-logos img.lotto-nz-logo {
+	width: 200px;
+}
+
+@media ( min-width: 700px ) {
+	.template-full-width-cover-img #site-header {
+		margin-bottom: 0;
+		padding: 1rem 0;
+	}
+	.template-full-width-cover-img .featured-media img {
+		height: 310px;
+		object-fit: cover;
+	}
+	.template-full-width-cover-img .breadcrumbs-bg {
+		margin-left: -4rem;
+	}
+	.template-full-width-cover-img .breadcrumbs-inner-wrapper {
+		width: calc( 100% - 8rem );
+	}
+	.template-full-width-cover-img .post-inner {
+		padding-top: 4rem;
+	}
+	#site-footer {
+		margin-top: 0;
+	}
+	.footer-widgets-outer-wrapper {
+		margin-top: 7rem;
+	}
+	.footer-inner {
+		padding: 6rem 0;
+	}
+	.footer-logos {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	.footer-logos img.cogs-logo {
+		margin: 0 50px 0 0;
+	}
+}
+
+@media ( min-width: 782px) {
+	#post-780 .wp-block-column:not(:first-child) {
+		margin-left: 6em;
+	}
+}
+
+@media ( min-width: 1000px) {
+	.wp-block-column {
+		font-size: 1.6rem;
+	}
+	.template-full-width-cover-img .breadcrumbs-bg {
+		margin-left: -5rem;
+	}
+	.template-full-width-cover-img .breadcrumbs-inner-wrapper {
+		width: calc( 100% - 10rem );
+	}
+}
+
+@media ( min-width: 1220px) {
+	.template-full-width-cover-img .breadcrumbs-bg {
+		margin-left: calc( ( 100vw - 112rem ) / -2 );
+	}
+}
